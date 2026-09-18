@@ -22,8 +22,8 @@ Ultrasonic sensors detect nearby obstacles and trigger real-time path correction
 
 ## Communication & Remote Operation
 ESP32 microcontroller orchestrates all sensors and actuators.
-MQTT protocol enables remote monitoring and control from a dashboard or mobile device.
 
+MQTT protocol enables remote monitoring and control from a dashboard or mobile device.
 
 ## Hardware Stack
 
@@ -31,24 +31,35 @@ ESP32 · GPS Neo-6M · QMC5883L Magnetometer · Ultrasonic Sensors · Motor Driv
 Key Technical Achievements
 
 Sub-3 m arrival accuracy under outdoor conditions
+
 Smooth closed-loop steering via PID
+
 Real-time obstacle detection and reaction
+
 Full remote telemetry and control through MQTT
 
 ## Skills & Competencies Demonstrated
 
 Multi-sensor system integration
+
 Digital signal processing and filtering
+
 Serial communication protocols (UART, I2C)
+
 Real-time embedded control on ESP32
+
 Remote monitoring and teleoperation via MQTT
+
 Practical application of the Haversine formula and PID control theory
 
 ## Future Enhancements
 
 Multi-sensor fusion (GPS + IMU + magnetometer) for higher robustness
+
 Wheel odometry for dead-reckoning during GPS outages
+
 Computer vision for advanced obstacle classification and path planning
+
 Predictive maintenance using AI models trained on logged sensor CSV data to anticipate component failures
 Adaptive path planning with dynamic obstacle mapping
 
