@@ -23,7 +23,7 @@ Ultrasonic sensors detect nearby obstacles and trigger real-time path correction
 ## Communication & Remote Operation
 ESP32 microcontroller orchestrates all sensors and actuators.
 
-MQTT protocol enables remote monitoring and control from a dashboard or mobile device.
+MQTT protocol enables remote monitoring and control from a  mobile device.
 
 ## Hardware Stack
 
@@ -50,7 +50,7 @@ Real-time embedded control on ESP32
 
 Remote monitoring and teleoperation via MQTT
 
-Practical application of the Haversine formula and PID control theory
+Practical application of the Haversine formula and PID control 
 
 ## Future Enhancements
 
@@ -63,4 +63,4 @@ Computer vision for advanced obstacle classification and path planning
 Predictive maintenance using AI models trained on logged sensor CSV data to anticipate component failures
 Adaptive path planning with dynamic obstacle mapping
 
-This project demonstrates end-to-end capability in designing, anaysing, troblooshoting, integrating, and controlling a real-world autonomous outdoor robot — from sensor fusion and control algorithms to reliable remote operation
+This project demonstrates end-to-end capability in designing, anaysing, troblooshoting, integrating, and controlling a real-world autonomous outdoor robot — from sensor  and control algorithms to reliable remote operation
