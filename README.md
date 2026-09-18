@@ -1,4 +1,4 @@
-### GPS-Guided Autonomous Wheel Robot with Real-Time Obstacle Avoidance
+### GPS Autonomous Wheel Robot with Real-Time Obstacle Avoidance
 
 ## Problem Statement
 
