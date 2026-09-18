@@ -9,7 +9,9 @@ The system combines precise positioning, heading estimation, closed-loop control
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
+
 QMC5883L digital magnetometer (compass) supplies real-time heading.
+
 Haversine formula calculates both the remaining distance to the target and the required bearing angle.
 
 ## Motion Control
