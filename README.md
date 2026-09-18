@@ -1,6 +1,6 @@
 ![Uploading WhatsApp Image 2026-09-18 at 12.45.59.jpeg…]()
-<img width="747" height="1600" alt="WhatsApp Image 2026-09-18 at 12 45 38 (1)" src="https://github.com/user-attachments/assets/2689af48-0e22-48dc-bd78-8915ab75bc28" />
-<img width="597" height="1280" alt="WhatsApp Image 2026-09-18 at 12 45 59" src="https://github.com/user-attachments/assets/9200e07d-c3f7-49b3-a0d3-cd2e1a308666" />
+<img width="300" height="500" alt="WhatsApp Image 2026-09-18 at 12 45 38 (1)" src="https://github.com/user-attachments/assets/2689af48-0e22-48dc-bd78-8915ab75bc28" />
+
 ### GPS Autonomous Wheel Robot with Real-Time Obstacle Avoidance
 
 ## Problem Statement
