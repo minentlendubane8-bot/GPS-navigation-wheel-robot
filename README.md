@@ -1,11 +1,6 @@
-
-
-https://github.com/user-attachments/assets/d3560fc7-a7fb-413b-817d-3e97b78c01ed
-
-![Uploading WhatsApp Image 2026-09-18 at 12.45.59.jpeg…]()
-<img width="300" height="500" alt="WhatsApp Image 2026-09-18 at 12 45 38 (1)" src="https://github.com/user-attachments/assets/2689af48-0e22-48dc-bd78-8915ab75bc28" />
-
 ### GPS Autonomous Wheel Robot with Real-Time Obstacle Avoidance
+https://github.com/user-attachments/assets/d3560fc7-a7fb-413b-817d-3e97b78c01ed
+https://github.com/user-attachments/assets/2ce6b894-b9e5-4664-9ef6-b7a479e5acae
 
 ## Problem Statement
 
@@ -71,3 +66,13 @@ Predictive maintenance using AI models trained on logged sensor CSV data to anti
 Adaptive path planning with dynamic obstacle mapping
 
 This project demonstrates end-to-end capability in designing, anaysing, troblooshoting, integrating, and controlling a real-world autonomous outdoor robot — from sensor  and control algorithms to reliable remote operation
+
+
+
+
+
+
+
+<img width="300" height="300" alt="WhatsApp Image 2026-09-18 at 12 45 38 (1)" src="https://github.com/user-attachments/assets/2689af48-0e22-48dc-bd78-8915ab75bc28" />
+<img width="300" height="300" alt="WhatsApp Image 2026-09-18 at 12 45 38 (1)" src="https://github.com/user-attachments/assets/7db17293-9f12-4d9f-bfb4-6b76347d8520" />
+
