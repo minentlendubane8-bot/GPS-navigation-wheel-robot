@@ -77,6 +77,11 @@ This project demonstrates end-to-end capability in designing, anaysing, trobloos
 
 
 
-<img width="300" height="300" alt="WhatsApp Image 2026-09-18 at 12 45 38 (1)" src="https://github.com/user-attachments/assets/2689af48-0e22-48dc-bd78-8915ab75bc28" />
-<img width="300" height="300" alt="WhatsApp Image 2026-09-18 at 12 45 38 (1)" src="https://github.com/user-attachments/assets/7db17293-9f12-4d9f-bfb4-6b76347d8520" />
+<img width="720" height="1082" alt="57467" src="https://github.com/user-attachments/assets/fd089d87-be9c-46b2-b0b5-1d13149bf696" />
+<img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
+<img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/7df483b9-a327-4843-a869-2ba414128744" />
+
+<img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/ec69baa1-1c98-44e0-adc7-f42029b32db9" />
+<img width="1536" height="1024" alt="57749" src="https://github.com/user-attachments/assets/0abd8189-ed6b-4af3-a2ec-6dd1ca6eafbc" />
+
 
