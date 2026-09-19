@@ -44,6 +44,11 @@ Real-time obstacle detection and reaction
 
 Full remote telemetry and control through MQTT
 
+## Software Used
+MATLAB & Simulink – system modelling and simulation,
+
+Arduino IDE – C/C++ embedded programming.
+
 ## Skills & Competencies Demonstrated
 
 Multi-sensor system integration
