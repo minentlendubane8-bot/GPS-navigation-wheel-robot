@@ -71,13 +71,6 @@ Adaptive path planning with dynamic obstacle mapping
 
 This project demonstrates end-to-end capability in designing, anaysing, troblooshoting, integrating, and controlling a real-world autonomous outdoor robot — from sensor  and control algorithms to reliable remote operation
 
-
-
-
-
-
-
-<img width="720" height="1082" alt="57467" src="https://github.com/user-attachments/assets/fd089d87-be9c-46b2-b0b5-1d13149bf696" />
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
 <img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/7df483b9-a327-4843-a869-2ba414128744" />
 
