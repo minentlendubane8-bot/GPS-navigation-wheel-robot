@@ -81,7 +81,7 @@ This project demonstrates end-to-end capability in designing, anaysing, trobloos
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
 <img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/7df483b9-a327-4843-a869-2ba414128744" />
 
-<img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/ec69baa1-1c98-44e0-adc7-f42029b32db9" />
+
 <img width="1536" height="1024" alt="57749" src="https://github.com/user-attachments/assets/0abd8189-ed6b-4af3-a2ec-6dd1ca6eafbc" />
 
 
