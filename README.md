@@ -77,4 +77,5 @@ This project demonstrates end-to-end capability in designing, anaysing, trobloos
 
 <img width="1536" height="1024" alt="57749" src="https://github.com/user-attachments/assets/0abd8189-ed6b-4af3-a2ec-6dd1ca6eafbc" />
 
+<img width="720" height="682" alt="57751" src="https://github.com/user-attachments/assets/e0f81e21-4d3f-4b08-a148-f3038994b6be" />
 
