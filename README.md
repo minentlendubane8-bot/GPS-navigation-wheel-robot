@@ -18,7 +18,7 @@ The system combines precise positioning, heading estimation, closed-loop control
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
 
 ## Circuit diagram 
-
+< img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/7df483b9-a327-4843-a869-2ba414128744" />
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
@@ -58,6 +58,7 @@ MATLAB & Simulink – system modelling and simulation,
 Results
 <img width="1671" height="941" alt="58797" src="https://github.com/user-attachments/assets/07d5c906-11c4-4f5e-ba10-3cdc6f134969" />
 Arduino IDE – C/C++ embedded programming.
+<img width="720" height="682" alt="57751" src="https://github.com/user-attachments/assets/e0f81e21-4d3f-4b08-a148-f3038994b6be" />
 
 ## Skills & Competencies Demonstrated
 
@@ -87,8 +88,8 @@ Adaptive path planning with dynamic obstacle mapping
 This project demonstrates end-to-end capability in designing, anaysing, troblooshoting, integrating, and controlling a real-world autonomous outdoor robot — from sensor  and control algorithms to reliable remote operation
 
 
-<img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/7df483b9-a327-4843-a869-2ba414128744" />
 
 
-<img width="720" height="682" alt="57751" src="https://github.com/user-attachments/assets/e0f81e21-4d3f-4b08-a148-f3038994b6be" />
+
+
 
