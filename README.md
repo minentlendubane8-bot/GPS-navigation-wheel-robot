@@ -1,5 +1,4 @@
-<img width="1671" height="941" alt="58797" src="https://github.com/user-attachments/assets/07d5c906-11c4-4f5e-ba10-3cdc6f134969" />
-<img width="1536" height="1024" alt="58796" src="https://github.com/user-attachments/assets/4bd22675-5eee-4d3e-a2cf-a1c43183646b" />
+
 ### GPS Autonomous Wheel Robot with Real-Time Obstacle Avoidance
 
 Demo video
@@ -46,9 +45,12 @@ Real-time obstacle detection and reaction
 
 Full remote telemetry and control through MQTT
 
-## Software Used
+## simulation and results 
 MATLAB & Simulink – system modelling and simulation,
+<img width="1536" height="1024" alt="58796" src="https://github.com/user-attachments/assets/4bd22675-5eee-4d3e-a2cf-a1c43183646b" />
 
+Results
+<img width="1671" height="941" alt="58797" src="https://github.com/user-attachments/assets/07d5c906-11c4-4f5e-ba10-3cdc6f134969" />
 Arduino IDE – C/C++ embedded programming.
 
 ## Skills & Competencies Demonstrated
@@ -81,8 +83,6 @@ This project demonstrates end-to-end capability in designing, anaysing, trobloos
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
 <img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/7df483b9-a327-4843-a869-2ba414128744" />
 
-
-<img width="1536" height="1024" alt="57749" src="https://github.com/user-attachments/assets/0abd8189-ed6b-4af3-a2ec-6dd1ca6eafbc" />
 
 <img width="720" height="682" alt="57751" src="https://github.com/user-attachments/assets/e0f81e21-4d3f-4b08-a148-f3038994b6be" />
 
