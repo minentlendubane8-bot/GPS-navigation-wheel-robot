@@ -228,6 +228,20 @@ Conceptually:
 
 This makes the navigation algorithm select the shortest angular correction.
 
+**2. Distance Calculation — Haversine Formula**
+
+The robot also needs to know how far it is from the target.
+
+Because GPS provides latitude and longitude rather than a simple Cartesian X-Y coordinate, the project uses the Haversine formula to calculate the distance between two geographic coordinates.
+
+The equation is:
+
+$$ d=2R\arcsin \left( \sqrt{ \sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_1)\cos(\phi_2) \sin^2\left(\frac{\Delta\lambda}{2}\right) } \right) $$
+
+where:
+
+\(d\) = distance between the two positions
+\(R\) = Earth's radius
 
 
 
