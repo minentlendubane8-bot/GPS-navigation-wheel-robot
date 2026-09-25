@@ -240,7 +240,7 @@ $$ u(t)=K_p e(t)+K_i\int e(t)\,dt+K_d\frac{de(t)}{dt} $$
 
 where:
 
-\(e(t)\) = heading error
+\e(t)\ = heading error
 
 \(K_p\) = proportional gain
 
