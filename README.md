@@ -354,6 +354,25 @@ HC-SR04 – verified distance measurements.
 
 **L298N**– verified forward, reverse and differential motor control.
 
+Power system – checked regulated voltage supplies.
+
+The L298N was also tested separately in Proteus before hardware implementation.
+
+**This approach allowed faults to be identified before all components were integrated.**
+
+**Calibration**
+
+Calibration was performed on the sensors before final system testing.
+
+Compass calibration:
+
+The QMC5883L was rotated through different orientations and calibration offsets were obtained. 
+
+<img width="720" height="1600" alt="58894" src="https://github.com/user-attachments/assets/9a432326-8f27-4b48-a4ec-c9da4901c0d2" />
+
+
+The resulting heading was compared with a mobile compass application to verify the directional readings. The sensor was positioned away from motors and other sources of magnetic interference.
+
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
 
