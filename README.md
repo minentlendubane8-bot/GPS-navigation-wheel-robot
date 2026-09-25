@@ -308,6 +308,15 @@ The setpoint is the desired steering angle of 28°. The PID output rises toward 
 
 **Steady-state error** = 0.3°: after the transient response has settled, the remaining difference from the desired steering angle is approximately 0.3°.
 
+## Obstacle Avoidance
+
+Obstacle avoidance was implemented using the HC-SR04 ultrasonic sensor, a servo motor, and the ESP32 programmed through the Arduino IDE. The ultrasonic sensor measures the distance between the robot and an object in its path.
+
+When an obstacle is detected within the defined distance threshold, the robot stops its motors. The servo then rotates the ultrasonic sensor to scan alternative directions. The implemented scanning sequence is:
+
+RIGHT → LEFT → CENTER
+
+The measured distances are used to determine whether a clearer direction is available. After the obstacle has been handled, the robot can resume its navigation process. 
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
