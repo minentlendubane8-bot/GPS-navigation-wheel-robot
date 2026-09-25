@@ -390,6 +390,33 @@ The GPS was tested outdoors with a clear view of the sky. Multiple coordinate re
 
 <img width="597" height="1280" alt="21497" src="https://github.com/user-attachments/assets/4675e11d-cfdd-48bd-9a1e-99fc710da39b" />
 
+**Ultrasonic testing:**
+
+The HC-SR04 was tested at different distances to verify obstacle detection before being integrated with the servo scanning mechanism.
+
+**Recording Logs**
+
+During testing, sensor and control data were recorded through the ESP32/Arduino IDE serial monitor.
+
+Typical recorded parameters included:
+
+GPS latitude
+GPS longitude
+Compass heading
+Target bearing
+Heading error
+Ultrasonic distance
+Obstacle status
+Motor commands
+MQTT commands/status
+
+These logs were useful for comparing the expected algorithm behaviour with the actual hardware response.
+
+**Field Testing**
+
+After successful bench and chassis testing, the robot was tested outdoors.
+
+Outdoor testing was necessary because the GPS requires an open view of the sky for reliable positioning. During field testing, the robot was commanded to navigate toward predefined GPS waypoints while the compass provided heading feedback and the ultrasonic sensor monitored for obstacles.
 
 
 ## Positioning & Heading
