@@ -229,60 +229,7 @@ Conceptually:
 This makes the navigation algorithm select the shortest angular correction.
 the equation becomes part of the actual navigation algorithm.
 
-**3. Distance Calculation — Haversine Formula**
 
-The robot also needs to know how far it is from the target.
-
-Because GPS provides latitude and longitude rather than a simple Cartesian X-Y coordinate, the project uses the Haversine formula to calculate the distance between two geographic coordinates.
-
-The equation is:
-
-$$ d=2R\arcsin \left( \sqrt{ \sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_1)\cos(\phi_2) \sin^2\left(\frac{\Delta\lambda}{2}\right) } \right) $$
-
-where:
-
-\(d\) = distance between the two positions
-
-\(R\) = Earth's radius
-
-\(\phi_1\) = current latitude
-
-\(\phi_2\) = target latitude
-
-\(\lambda_1\) = current longitude
-
-\(\lambda_2\) = target longitude
-
-\(\Delta\phi\) = latitude difference
-
-\(\Delta\lambda\) = longitude difference
-
-The Haversine calculation converts the GPS latitude and longitude measurements into a distance value in metres that can be used by the navigation algorithm.
-
-**3. Bearing Calculation**
-
-Distance alone does not tell the robot which way to travel.
-
-The navigation system therefore also calculates the bearing from the current GPS position to the target.
-
-The bearing represents the direction of the target relative to North.
-
-The software therefore receives:
-
-Current GPS position + Target GPS position - Bearing calculation
--Required direction
-
-In the Simulink results:
-
-Bearing = 102.7°
-Heading = 87.6°
-
-Therefore:
-
-Heading error = 102.7° - 87.6°
-              = 15.1°
-
-This connects the GPS calculation directly to the compass measurement.
 
 
 ## Positioning & Heading
