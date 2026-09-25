@@ -129,18 +129,25 @@ The Echo output of the HC-SR04 can therefore produce a 5 V signal, which is high
 
 A two-resistor voltage divider was implemented between the HC-SR04 Echo output and the ESP32 input to reduce the signal voltage.
 
-HC-SR04 Echo (5 V)
-        │
-        │
-       R1
-      47 Ω
-        │
-        ├──────────► ESP32 GPIO
-        │
-       R2
-      100 Ω
-        │
-       GND
+The voltage divider was designed using E12-series resistor values.
+
+The voltage-divider relationship is:
+
+Vout = Vin × R2 / (R1 + R2)
+
+Using:
+
+Vin = 5 V
+R1  = 47 Ω
+R2  = 100 Ω
+
+The expected output is approximately:
+
+Vout = 5 × 100 / (47 + 100)
+
+Vout ≈ 3.4 V
+
+The calculated divider current was approximately:
 
 
 ## Positioning & Heading
