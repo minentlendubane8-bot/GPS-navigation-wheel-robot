@@ -372,7 +372,13 @@ The QMC5883L was rotated through different orientations and calibration offsets 
 
 
 
-The resulting heading was compared with a mobile compass application to verify the directional readings. The sensor was positioned away from motors and other sources of magnetic interference.
+The resulting heading was compared with a mobile compass application to verify the directional readings. 
+
+<img width="647" height="699" alt="59484" src="https://github.com/user-attachments/assets/3b609f44-9fc8-424f-94ef-62ba79e6877c" />
+<img width="712" height="190" alt="58890" src="https://github.com/user-attachments/assets/0e9815e6-c731-4aac-aae8-b2ff7a1c7ca9" />
+
+
+The sensor was positioned away from motors and other sources of magnetic interference.
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
