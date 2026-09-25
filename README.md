@@ -418,6 +418,25 @@ After successful bench and chassis testing, the robot was tested outdoors.
 
 Outdoor testing was necessary because the GPS requires an open view of the sky for reliable positioning. During field testing, the robot was commanded to navigate toward predefined GPS waypoints while the compass provided heading feedback and the ultrasonic sensor monitored for obstacles.
 
+**The field tests were used to evaluate:**
+
+GPS position stability
+
+Waypoint navigation
+
+Heading correction
+
+PID response
+
+Obstacle detection
+
+Motor behaviour
+
+MQTT communication
+
+Overall autonomous operation
+
+The testing also identified practical limitations such as GPS drift/latency, L298N voltage drop and heating, and the limited detection area of the single ultrasonic sensor.
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
