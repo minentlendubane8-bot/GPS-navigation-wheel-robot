@@ -328,7 +328,15 @@ The communication was first tested using Start and Stop commands. The test verif
 
 <img width="720" height="682" alt="57751" src="https://github.com/user-attachments/assets/e0f81e21-4d3f-4b08-a148-f3038994b6be" />
 
+## Hardware Development and Testing
 
+**Hardware Assembly and Soldering**
+
+The electronic components were assembled according to the circuit design and mounted onto the robot chassis. Wiring was completed between the ESP32, GPS module, QMC5883L compass, HC-SR04 ultrasonic sensor, servo motor, L298N motor driver, motors, buck converter, and battery supply.
+
+Soldering was used to provide secure electrical connections and reduce loose connections during robot movement. Particular attention was given to power and ground connections, sensor communication lines, and motor-driver connections.
+
+The compass wiring was also improved using shielded cable because electromagnetic interference from the motors and nearby electronics affected the compass readings. A 1 µF decoupling capacitor was placed close to the compass power pins to improve signal stability.
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
