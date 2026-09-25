@@ -228,6 +228,11 @@ Conceptually:
 This makes the navigation algorithm select the shortest angular correction.
 the equation becomes part of the actual navigation algorithm.
 
+**3.PID Control**
+
+Once the heading error has been calculated and wrapped between −180° and +180°, the error becomes the input to the PID controller.
+
+The purpose of the PID controller is to reduce the heading error and produce an appropriate steering correction. Instead of simply commanding the robot to turn left or right, the controller determines how much correction should be applied based on the magnitude and behaviour of the error.
 
 
 
