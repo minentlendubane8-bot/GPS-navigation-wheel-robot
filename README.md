@@ -438,75 +438,9 @@ Overall autonomous operation
 
 The testing also identified practical limitations such as GPS drift/latency, L298N voltage drop and heating, and the limited detection area of the single ultrasonic sensor.
 
-## Positioning & Heading
-GPS module (Neo-6M) provides absolute location.
+**Commissioning**
 
-QMC5883L digital magnetometer (compass) supplies real-time heading.
-
-Haversine formula calculates both the remaining distance to the target and the required bearing angle.
-
-## Motion Control
-PID controller continuously adjusts the steering wheel to minimize heading error, resulting in smooth and stable path following.
-
-## Obstacle Avoidance
-Ultrasonic sensors detect nearby obstacles and trigger real-time path corrections.
-
-## Communication & Remote Operation
-ESP32 microcontroller orchestrates all sensors and actuators.
-
-MQTT protocol enables remote monitoring and control from a  mobile device.
-
-## Hardware Stack
-
-ESP32 · GPS Neo-6M · QMC5883L Magnetometer · Ultrasonic Sensors · Motor Drivers · MQTT over Wi-Fi
-Key Technical Achievements
-
-Sub-3 m arrival accuracy under outdoor conditions
-
-Smooth closed-loop steering via PID
-
-Real-time obstacle detection and reaction
-
-Full remote telemetry and control through MQTT
-
-## simulation and results 
-MATLAB & Simulink – system modelling and simulation,
-
-
-Results
-
-Arduino IDE – C/C++ embedded programming.
-
-
-## Skills & Competencies Demonstrated
-
-Multi-sensor system integration
-
-Digital signal processing and filtering
-
-Serial communication protocols (UART, I2C)
-
-Real-time embedded control on ESP32
-
-Remote monitoring and teleoperation via MQTT
-
-Practical application of the Haversine formula and PID control 
-
-## Future Enhancements
-
-Multi-sensor fusion (GPS + IMU + magnetometer) for higher robustness
-
-Wheel odometry for dead-reckoning during GPS outages
-
-Computer vision for advanced obstacle classification and path planning
-
-Predictive maintenance using AI models trained on logged sensor CSV data to anticipate component failures
-Adaptive path planning with dynamic obstacle mapping
-
-This project demonstrates end-to-end capability in designing, anaysing, troblooshoting, integrating, and controlling a real-world autonomous outdoor robot — from sensor  and control algorithms to reliable remote operation
-
-
-
+Commissioning was the final stage where the complete robot was checked as an operational system.
 
 
 
