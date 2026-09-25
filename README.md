@@ -259,6 +259,24 @@ where:
 
 The Haversine calculation converts the GPS latitude and longitude measurements into a distance value in metres that can be used by the navigation algorithm.
 
+**3. Bearing Calculation**
+
+Distance alone does not tell the robot which way to travel.
+
+The navigation system therefore also calculates the bearing from the current GPS position to the target.
+
+The bearing represents the direction of the target relative to North.
+
+The software therefore receives:
+
+Current GPS position
+        +
+Target GPS position
+        ↓
+   Bearing calculation
+        ↓
+ Required direction
+
 
 
 
