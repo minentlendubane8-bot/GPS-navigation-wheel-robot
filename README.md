@@ -18,7 +18,8 @@ The system combines precise positioning, heading estimation, closed-loop control
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
 
 ## Circuit diagram 
-< img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/7df483b9-a327-4843-a869-2ba414128744" />
+<img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/ffad8537-d310-4db9-9221-8947dd7d3b35" />
+
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
