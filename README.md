@@ -250,7 +250,7 @@ K_d = derivative gain
 
 u(t)= steering/control output
 
-**3. Motor Control**
+**4. Motor Control**
 
 The steering correction is converted into differential motor speeds:
 
