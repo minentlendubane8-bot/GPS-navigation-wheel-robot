@@ -172,6 +172,18 @@ The system uses two key measurements:
 
 These measurements are processed to determine the distance and direction to the target and the required steering correction.
 
+**1.Robot Heading and Waypoint**
+
+Bearing diagram shows two different 
+
+<img width="720" height="408" alt="58896" src="https://github.com/user-attachments/assets/1c5b5191-58b3-4b50-8084-520e35c3aee6" />
+                          
+
+Robot heading comes from your QMC5883L compass.
+
+It tells the controller something like:
+
+"The robot is currently facing 87.6°."
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
 
