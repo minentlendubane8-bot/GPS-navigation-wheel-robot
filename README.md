@@ -30,7 +30,7 @@ The project was developed through:
 - Testing and debugging
 - Outdoor field testing
 
-## Box diagram
+## System Block Diagram
 
 The following block diagram shows how the main inputs and outputs are connected to the ESP32.
 
