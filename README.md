@@ -54,8 +54,60 @@ The ESP32 controls:
 
 The servo motor is used to move the ultrasonic sensor for obstacle scanning.
 
-## Circuit diagram 
-<img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/ffad8537-d310-4db9-9221-8947dd7d3b35" />
+##  Circuit diagram 
+The circuit diagram shows the electrical implementation of the autonomous robot, including the power supply, voltage regulation, communication interfaces, ESP32 pin connections, motor-driver connections and signal-level protection.
+
+<img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/ffad8537-d310-4db9-9221-8947dd7d3b35" /> 
+
+### Power Supply
+
+The robot is powered by a **12 V battery**.
+
+The 12 V supply is used for the motor-drive section through the L298N motor driver. A regulated supply is used for the lower-voltage electronic components(buck convert 3.3V).
+
+The ESP32 operates at **3.3 V**, while other components in the system require different supply voltages.
+
+| Component | Supply Voltage _____________________________
+| ESP32 | 3.3 V |
+| GPS NEO-6M | 3.3 V |
+| QMC5883L Compass | 3.3 V |
+| L298N Motor Supply | 12 V |
+| L298N Logic Supply | 3.3 V |
+| Servo Motor | 5 V |
+| HC-SR04 | 5 V |
+
+### Common Ground
+
+A common ground is used between the ESP32 and the connected electronic circuits.
+
+This provides a **common voltage reference for the signal connections**, allowing the ESP32 to correctly interpret signals from the GPS, compass, ultrasonic sensor and other connected devices.
+
+The servo and external 3.3 V supply also share ground with the ESP32.
+
+**ESP32 Pin Configuration**
+
+The ESP32 acts as the main interface between the sensors and actuators.
+
+| Component | Signal | ESP32 Pin |
+|---|---|---|
+| GPS NEO-6M | RX | GPIO 21 |
+| GPS NEO-6M | TX | GPIO 23 |
+| QMC5883L | SDA | GPIO 21 |
+| QMC5883L | SCL | GPIO 22 |
+| HC-SR04 | Trigger | ESP32 GPIO |
+| HC-SR04 | Echo | ESP32 GPIO through voltage divider |
+| Servo | PWM Signal | ESP32 PWM GPIO |
+| L298N | IN1–IN4 | ESP32 Digital GPIO |
+| L298N | ENA / ENB | ESP32 PWM GPIO |
+
+> The ESP32 uses UART for GPS communication and I²C for the compass interface.
+
+**GPS Communication**
+
+The GPS NEO-6M communicates with the ESP32 using **UART serial communication**.
+GPS TX  ─────────► ESP32 RX
+GPS RX  ◄───────── ESP32 TX
+
 
 
 ## Positioning & Heading
