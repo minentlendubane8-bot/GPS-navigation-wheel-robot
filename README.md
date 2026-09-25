@@ -250,6 +250,14 @@ K_d = derivative gain
 
 u(t)= steering/control output
 
+**3. Motor Control**
+
+The steering correction is converted into differential motor speeds:
+
+$$ L=BasePWM-u(t) $$ $$ R=BasePWM+u(t) $$
+
+The resulting commands are sent to the simulated left and right motors, representing the L298N motor-driver stage used in the physical robot.
+
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
