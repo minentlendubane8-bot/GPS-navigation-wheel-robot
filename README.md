@@ -35,7 +35,9 @@ The project was developed through:
 The following block diagram shows how the main inputs and outputs are connected to the ESP32.
 
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
+
 **Inputs**
+
 The ESP32 receives information from:
 
 - **GPS Module** – provides position information.
