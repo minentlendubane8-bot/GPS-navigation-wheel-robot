@@ -258,6 +258,13 @@ $$ L=BasePWM-u(t) $$ $$ R=BasePWM+u(t) $$
 
 The resulting commands are sent to the simulated left and right motors, representing the L298N motor-driver stage used in the physical robot.
 
+**5.Feedback Loop**
+
+The feedback loop is used to continuously correct the robot’s heading during navigation. The robot compares the desired waypoint bearing with the measured heading from the QMC5883L compass to determine the heading error.
+
+The calculated error is supplied to the PID controller, which generates a steering correction. This correction is converted into differential speed commands for the left and right motors. As the motors change the robot’s direction, the compass measures the new heading and sends the updated value back to the control system.
+
+This process is repeated continuously during the simulation.
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
