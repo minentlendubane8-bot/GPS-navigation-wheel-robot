@@ -129,6 +129,19 @@ The Echo output of the HC-SR04 can therefore produce a 5 V signal, which is high
 
 A two-resistor voltage divider was implemented between the HC-SR04 Echo output and the ESP32 input to reduce the signal voltage.
 
+HC-SR04 Echo (5 V)
+        │
+        │
+       R1
+      47 Ω
+        │
+        ├──────────► ESP32 GPIO
+        │
+       R2
+      100 Ω
+        │
+       GND
+
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
