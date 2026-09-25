@@ -272,12 +272,24 @@ The software therefore receives:
 Current GPS position
         +
 Target GPS position
+
         ↓
    Bearing calculation
+   
         ↓
  Required direction
 
+In the Simulink results:
 
+Bearing = 102.7°
+Heading = 87.6°
+
+Therefore:
+
+Heading error = 102.7° - 87.6°
+              = 15.1°
+
+This connects the GPS calculation directly to the compass measurement.
 
 
 ## Positioning & Heading
