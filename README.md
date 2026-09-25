@@ -167,7 +167,9 @@ The robot must determine its current position and heading and use these measurem
 The navigation problem therefore has three main quantities:
 
 Current position — obtained from the GPS.
+
 Current heading — obtained from the QMC5883L compass.
+
 Target position — predefined latitude and longitude.
 
 The navigation system then calculates:
@@ -179,12 +181,6 @@ Steering correction required to reduce this error.
 
 <img width="720" height="408" alt="58896" src="https://github.com/user-attachments/assets/1c5b5191-58b3-4b50-8084-520e35c3aee6" />
                           
-
-Robot heading comes from your QMC5883L compass.
-
-It tells the controller something like:
-
-"The robot is currently facing 87.6°."
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
 
