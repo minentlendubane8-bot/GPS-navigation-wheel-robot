@@ -31,7 +31,28 @@ The project was developed through:
 - Outdoor field testing
 
 ## Box diagram
+
+The following block diagram shows how the main inputs and outputs are connected to the ESP32.
+
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
+### Inputs
+
+The ESP32 receives information from:
+
+- **GPS Module** – provides position information.
+- **Compass Sensor** – provides heading information.
+- **Ultrasonic Sensor** – measures distance to obstacles.
+
+### Outputs
+
+The ESP32 controls:
+
+- **L298N Motor Driver**
+- **Motor 1**
+- **Motor 2**
+- **Servo Motor**
+
+The servo motor is used to move the ultrasonic sensor for obstacle scanning.
 
 ## Circuit diagram 
 <img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/ffad8537-d310-4db9-9221-8947dd7d3b35" />
