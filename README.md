@@ -234,6 +234,17 @@ Once the heading error has been calculated and wrapped between −180° and +180
 
 The purpose of the PID controller is to reduce the heading error and produce an appropriate steering correction. Instead of simply commanding the robot to turn left or right, the controller determines how much correction should be applied based on the magnitude and behaviour of the error.
 
+The general PID equation used to describe the controller is:
+
+$$ u(t)=K_p e(t)+K_i\int e(t)\,dt+K_d\frac{de(t)}{dt} $$
+
+where:
+
+\(e(t)\) = heading error
+\(K_p\) = proportional gain
+\(K_i\) = integral gain
+\(K_d\) = derivative gain
+\(u(t)\) = steering/control output
 
 
 ## Positioning & Heading
