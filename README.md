@@ -266,7 +266,20 @@ $$ \alpha = \theta_{waypoint}-\theta_{robot} $$
 
 The calculated error is supplied to the PID controller, which generates a steering correction. This correction is converted into differential speed commands for the left and right motors. As the motors change the robot’s direction, the compass measures the new heading and sends the updated value back to the control system.
 
-This process is repeated continuously during the simulation.
+This process is repeated continuously.
+
+## Simulation Parameters – Simulink Software
+
+The following parameters were used to configure the Simulink simulation:
+
+Simulation time: 120 s
+Time step: 100 ms (0.1 s)
+Control update rate: 10 Hz
+GPS: Provides the robot’s latitude and longitude
+QMC5883L: Provides the robot’s heading
+Target location: Defined as the navigation setpoint
+PID controller: \(K_p = 0.14,\ K_i = 0,\ K_d = 0.10\)
+Motor control: Differential left- and right-motor commands
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
