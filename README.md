@@ -269,15 +269,8 @@ The bearing represents the direction of the target relative to North.
 
 The software therefore receives:
 
-Current GPS position
-        +
-Target GPS position
-
-        ↓
-   Bearing calculation
-   
-        ↓
- Required direction
+Current GPS position + Target GPS position - Bearing calculation
+-Required direction
 
 In the Simulink results:
 
