@@ -180,7 +180,8 @@ Difference between the required bearing and the current heading.
 Steering correction required to reduce this error. 
 
 <img width="720" height="408" alt="58896" src="https://github.com/user-attachments/assets/1c5b5191-58b3-4b50-8084-520e35c3aee6" />
-**1.Robot Heading and Waypoint Bearing**
+
+**1. Robot Heading and Waypoint Bearing**
 
 The first important concept is the difference between where the robot is facing and where the target is located.
 
@@ -210,6 +211,22 @@ $$ \alpha = 102.7^\circ-87.6^\circ $$ $$ \boxed{\alpha=15.1^\circ} $$
 So the robot has a 15.1° heading error and the controller must generate a steering correction.
 
 This is important because the robot does not simply move toward the GPS coordinate. It continuously compares its required direction with its measured direction.
+
+**2. Heading Error Wrapping**
+
+An important software consideration is that angles are circular.
+
+For example, a robot heading of 359° and a target bearing of 1° should produce a small 2° correction—not a 358° correction.
+
+Therefore, the heading error is constrained to:
+
+$$ -180^\circ \leq \alpha < 180^\circ $$
+
+Conceptually:
+
+α = wrap(θwaypoint − θrobot)
+
+This makes the navigation algorithm select the shortest angular correction.
 
 
 
