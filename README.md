@@ -59,7 +59,7 @@ The circuit diagram shows the electrical implementation of the autonomous robot,
 
 <img width="720" height="735" alt="57469" src="https://github.com/user-attachments/assets/ffad8537-d310-4db9-9221-8947dd7d3b35" /> 
 
-### Power Supply
+**Power Supply**
 
 The robot is powered by a **12 V battery**.
 
