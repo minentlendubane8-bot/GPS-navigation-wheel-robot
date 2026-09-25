@@ -273,13 +273,23 @@ This process is repeated continuously.
 The following parameters were used to configure the Simulink simulation:
 
 Simulation time: 120 s
+
 Time step: 100 ms (0.1 s)
+
 Control update rate: 10 Hz
+
 GPS: Provides the robot’s latitude and longitude
+
 QMC5883L: Provides the robot’s heading
+
 Target location: Defined as the navigation setpoint
 PID controller: \(K_p = 0.14,\ K_i = 0,\ K_d = 0.10\)
+
 Motor control: Differential left- and right-motor commands
+
+<img width="1536" height="1024" alt="58796" src="https://github.com/user-attachments/assets/4bd22675-5eee-4d3e-a2cf-a1c43183646b" />
+
+
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
@@ -314,7 +324,7 @@ Full remote telemetry and control through MQTT
 
 ## simulation and results 
 MATLAB & Simulink – system modelling and simulation,
-<img width="1536" height="1024" alt="58796" src="https://github.com/user-attachments/assets/4bd22675-5eee-4d3e-a2cf-a1c43183646b" />
+
 
 Results
 <img width="1671" height="941" alt="58797" src="https://github.com/user-attachments/assets/07d5c906-11c4-4f5e-ba10-3cdc6f134969" />
