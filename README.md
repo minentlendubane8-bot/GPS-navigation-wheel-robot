@@ -243,6 +243,12 @@ where:
 
 \(d\) = distance between the two positions
 \(R\) = Earth's radius
+\(\phi_1\) = current latitude
+\(\phi_2\) = target latitude
+\(\lambda_1\) = current longitude
+\(\lambda_2\) = target longitude
+\(\Delta\phi\) = latitude difference
+\(\Delta\lambda\) = longitude difference
 
 
 
