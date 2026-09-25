@@ -110,6 +110,16 @@ The GPS NEO-6M communicates with the ESP32 using **UART serial communication**.
 GPS TX  ─────────► ESP32 RX
 GPS RX  ◄───────── ESP32 TX
 
+The GPS continuously sends position information to the ESP32, which processes the received data for navigation.
+
+**Compass Communication**
+
+The QMC5883L compass uses the I²C communication interface.
+
+Compass SDA ─────► ESP32 GPIO 21
+Compass SCL ─────► ESP32 GPIO 22
+
+The compass provides heading information used by the navigation and heading-control system.
 
 
 ## Positioning & Heading
