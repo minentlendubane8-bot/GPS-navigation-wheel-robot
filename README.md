@@ -161,6 +161,17 @@ The voltage divider provides an interface between the 5 V HC-SR04 Echo signal an
 
 This was an important part of the circuit design because the sensor and microcontroller operate at different logic levels.
 
+## Navigation Theory and Algorithm
+
+The navigation algorithm determines how the robot should move from its current GPS position toward a predefined target location.
+
+The system uses two key measurements:
+
+- **GPS position** — provides the robot's current latitude and longitude.
+- **Compass heading** — provides the direction in which the robot is currently facing.
+
+These measurements are processed to determine the distance and direction to the target and the required steering correction.
+
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
 
