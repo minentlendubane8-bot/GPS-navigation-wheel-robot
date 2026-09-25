@@ -368,7 +368,8 @@ Compass calibration:
 
 The QMC5883L was rotated through different orientations and calibration offsets were obtained. 
 
-<img width="720" height="1600" alt="58894" src="https://github.com/user-attachments/assets/9a432326-8f27-4b48-a4ec-c9da4901c0d2" />
+<img width="720" height="604" alt="58894" src="https://github.com/user-attachments/assets/138c28ca-25c5-424e-b39a-d7e177eec18c" />
+
 
 
 The resulting heading was compared with a mobile compass application to verify the directional readings. The sensor was positioned away from motors and other sources of magnetic interference.
