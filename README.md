@@ -63,7 +63,7 @@ The circuit diagram shows the electrical implementation of the autonomous robot,
 
 The robot is powered by a **12 V battery**.
 
-The 12 V supply is used for the motor-drive section through the L298N motor driver. A regulated supply is used for the lower-voltage electronic components(buck convert 3.3V).
+The 12 V supply is used for the motor-drive section through the L298N motor driver. A regulated supply is used for the lower-voltage electronic components(buck convert two output 3.3V and 5V).
 
 The ESP32 operates at **3.3 V**, while other components in the system require different supply voltages.
 
@@ -75,7 +75,7 @@ The ESP32 operates at **3.3 V**, while other components in the system require di
 | L298N Motor Supply | 12 V |
 | L298N Logic Supply | 5 V |
 | Servo Motor | 5 V |
-| HC-SR04 | 3.3 V |
+| HC-SR04 | 5 V |
 
 **Common Ground**
 
