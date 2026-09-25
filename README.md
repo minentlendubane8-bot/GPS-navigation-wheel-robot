@@ -156,7 +156,6 @@ This design was selected to provide a voltage close to the required 3.3 V logic 
 
 **Why the Voltage Divider Was Required**
 
-The voltage divider provides an interface between the 5 V HC-SR04 Echo signal and the 3.3 V ESP32 GPIO input
 The voltage divider provides an interface between the 5 V HC-SR04 Echo signal and the 3.3 V ESP32 GPIO input.
 
 This was an important part of the circuit design because the sensor and microcontroller operate at different logic levels.
