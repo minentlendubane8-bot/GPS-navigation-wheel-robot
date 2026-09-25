@@ -262,6 +262,8 @@ The resulting commands are sent to the simulated left and right motors, represen
 
 The feedback loop is used to continuously correct the robot’s heading during navigation. The robot compares the desired waypoint bearing with the measured heading from the QMC5883L compass to determine the heading error.
 
+$$ \alpha = \theta_{waypoint}-\theta_{robot} $$
+
 The calculated error is supplied to the PID controller, which generates a steering correction. This correction is converted into differential speed commands for the left and right motors. As the motors change the robot’s direction, the compass measures the new heading and sends the updated value back to the control system.
 
 This process is repeated continuously during the simulation.
