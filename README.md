@@ -241,9 +241,13 @@ $$ u(t)=K_p e(t)+K_i\int e(t)\,dt+K_d\frac{de(t)}{dt} $$
 where:
 
 \(e(t)\) = heading error
+
 \(K_p\) = proportional gain
+
 \(K_i\) = integral gain
+
 \(K_d\) = derivative gain
+
 \(u(t)\) = steering/control output
 
 
