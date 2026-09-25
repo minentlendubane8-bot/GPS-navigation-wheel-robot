@@ -1,19 +1,16 @@
 
 ### GPS Autonomous Wheel Robot with Real-Time Obstacle Avoidance
 
+An autonomous mobile robot developed as a Bachelor of Engineering Technology in Electrical Engineering final-year project.
+
+The robot uses an **ESP32** as the main controller and integrates GPS navigation, compass heading, ultrasonic obstacle detection, motor control, servo scanning and wireless communication.
+
 Demo video
 
 https://github.com/user-attachments/assets/d3560fc7-a7fb-413b-817d-3e97b78c01ed
 
 https://github.com/user-attachments/assets/2ce6b894-b9e5-4664-9ef6-b7a479e5acae
 
-# GPS Navigation Autonomous Robot 
-
-An autonomous mobile robot developed as a Bachelor of Engineering Technology in Electrical Engineering final-year project.
-
-The robot uses an **ESP32** as the main controller and integrates GPS navigation, compass heading, ultrasonic obstacle detection, motor control, servo scanning and wireless communication.
-
----
 
 ## Project Overview
 
