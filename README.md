@@ -229,7 +229,7 @@ Conceptually:
 This makes the navigation algorithm select the shortest angular correction.
 the equation becomes part of the actual navigation algorithm.
 
-**2. Distance Calculation — Haversine Formula**
+**3. Distance Calculation — Haversine Formula**
 
 The robot also needs to know how far it is from the target.
 
