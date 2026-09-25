@@ -384,7 +384,9 @@ The sensor was positioned away from motors and other sources of magnetic interfe
 
 **GPS calibration/testing:**
 The GPS was tested outdoors with a clear view of the sky. Multiple coordinate readings were collected and averaging/filtering was applied to reduce GPS noise and provide more stable position data.
-![Uploading 21462.jpg…]()
+
+<img width="597" height="1280" alt="21462" src="https://github.com/user-attachments/assets/6ac2642c-6657-424d-9cc6-a6c70386023c" />
+
 ![Uploading 58892.jpg…]()
 
 
