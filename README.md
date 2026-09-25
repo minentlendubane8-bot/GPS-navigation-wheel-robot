@@ -290,10 +290,23 @@ Motor control: Differential left- and right-motor commands
 
 <img width="1536" height="1024" alt="58796" src="https://github.com/user-attachments/assets/4bd22675-5eee-4d3e-a2cf-a1c43183646b" />
 
+
 **Simulation Results – PID Steering Response**
 
 The Scope was used to evaluate how the PID controller responds when the steering-angle setpoint changes from 0° to 28°.
 <img width="1671" height="941" alt="58797" src="https://github.com/user-attachments/assets/07d5c906-11c4-4f5e-ba10-3cdc6f134969" />
+
+**Interpretation**
+
+The setpoint is the desired steering angle of 28°. The PID output rises toward this value after the step input is applied.
+
+**Rise time** = 0.42 s: the response reaches the specified 10–90% range of the final value in 0.42 seconds.
+
+**Overshoot**= 5.8%: the response temporarily rises above the 28° setpoint, reaching approximately 29.58°, before returning toward the target.
+
+**Settling time** = 1.12 s: the response settles within the specified ±2% band around the setpoint.
+
+**Steady-state error** = 0.3°: after the transient response has settled, the remaining difference from the desired steering angle is approximately 0.3°.
 
 
 ## Positioning & Heading
