@@ -164,13 +164,13 @@ This was an important part of the circuit design because the sensor and microcon
 ## Navigation Theory and Algorithm
 The robot must determine its current position and heading and use these measurements to navigate toward a predefined GPS waypoint.
 
-The navigation problem therefore has three main quantities:
+**The navigation problem therefore has three main quantities:**
 
-Current position — obtained from the GPS.
+**Current position**— obtained from the GPS.
 
-Current heading — obtained from the QMC5883L compass.
+**Current heading** — obtained from the QMC5883L compass.
 
-Target position — predefined latitude and longitude.
+**Target position**— predefined latitude and longitude.
 
 The navigation system then calculates:
 
@@ -180,6 +180,19 @@ Difference between the required bearing and the current heading.
 Steering correction required to reduce this error. 
 
 <img width="720" height="408" alt="58896" src="https://github.com/user-attachments/assets/1c5b5191-58b3-4b50-8084-520e35c3aee6" />
+. Robot Heading and Waypoint Bearing
+
+The first important concept is the difference between where the robot is facing and where the target is located.
+
+The compass provides the robot heading:
+
+$$ \theta_{robot} $$
+
+The GPS coordinates of the robot and target are used to calculate the direction toward the waypoint:
+
+$$ \theta_{waypoint} $$
+
+The navigation diagram represents these two directions relative to North
                           
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
