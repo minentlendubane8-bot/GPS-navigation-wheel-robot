@@ -257,8 +257,7 @@ where:
 
 \(\Delta\lambda\) = longitude difference
 
-
-
+The Haversine calculation converts the GPS latitude and longitude measurements into a distance value in metres that can be used by the navigation algorithm.
 
 
 
