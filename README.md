@@ -121,6 +121,14 @@ Compass SCL ─────► ESP32 GPIO 22
 
 The compass provides heading information used by the navigation and heading-control system.
 
+**HC-SR04 Voltage Divider**
+
+The HC-SR04 ultrasonic sensor operates at 5 V, while the ESP32 uses 3.3 V logic.
+
+The Echo output of the HC-SR04 can therefore produce a 5 V signal, which is higher than the ESP32 GPIO input level.
+
+A two-resistor voltage divider was implemented between the HC-SR04 Echo output and the ESP32 input to reduce the signal voltage.
+
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
