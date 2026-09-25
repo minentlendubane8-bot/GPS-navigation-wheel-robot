@@ -7,12 +7,31 @@ https://github.com/user-attachments/assets/d3560fc7-a7fb-413b-817d-3e97b78c01ed
 
 https://github.com/user-attachments/assets/2ce6b894-b9e5-4664-9ef6-b7a479e5acae
 
-## Problem Statement
+# GPS Navigation Autonomous Robot 🤖
 
-Traditional outdoor mobile robots often struggle to reach target locations with reliable accuracy and smooth motion when relying solely on basic GPS. The challenge addressed in this project was to design a wheel-steering robot capable of autonomously navigating to a designated GPS coordinate with position accuracy better than 3 meters, while maintaining smooth steering control and actively avoiding obstacles in real time.
-Solution Overview
+An autonomous mobile robot developed as a Bachelor of Engineering Technology in Electrical Engineering final-year project.
 
-The system combines precise positioning, heading estimation, closed-loop control, and remote communication to deliver reliable outdoor navigation:
+The robot uses an **ESP32** as the main controller and integrates GPS navigation, compass heading, ultrasonic obstacle detection, motor control, servo scanning and wireless communication.
+
+---
+
+## 1. Project Overview
+
+The aim of this project was to develop a robot that can navigate using GPS coordinates, determine its direction using a compass, detect obstacles and control its motors automatically.
+
+The main controller is an **ESP32**.
+
+The project was developed through:
+
+- Hardware design
+- Circuit design
+- Embedded programming
+- Sensor integration
+- Navigation calculations
+- Motor control
+- Sensor calibration
+- Testing and debugging
+- Outdoor field testing
 
 ## Box diagram
 <img width="698" height="445" alt="57471" src="https://github.com/user-attachments/assets/898e562b-9840-4046-a998-a72c5d14df6c" />
