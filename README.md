@@ -387,7 +387,8 @@ The GPS was tested outdoors with a clear view of the sky. Multiple coordinate re
 
 <img width="597" height="1280" alt="21462" src="https://github.com/user-attachments/assets/6ac2642c-6657-424d-9cc6-a6c70386023c" />
 
-![Uploading 58892.jpg…]()
+<img width="597" height="1280" alt="21497" src="https://github.com/user-attachments/assets/4675e11d-cfdd-48bd-9a1e-99fc710da39b" />
+
 
 
 ## Positioning & Heading
