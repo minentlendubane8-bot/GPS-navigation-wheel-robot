@@ -242,12 +242,19 @@ $$ d=2R\arcsin \left( \sqrt{ \sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi
 where:
 
 \(d\) = distance between the two positions
+
 \(R\) = Earth's radius
+
 \(\phi_1\) = current latitude
+
 \(\phi_2\) = target latitude
+
 \(\lambda_1\) = current longitude
+
 \(\lambda_2\) = target longitude
+
 \(\Delta\phi\) = latitude difference
+
 \(\Delta\lambda\) = longitude difference
 
 
