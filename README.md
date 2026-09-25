@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/d3560fc7-a7fb-413b-817d-3e97b78c01ed
 
 https://github.com/user-attachments/assets/2ce6b894-b9e5-4664-9ef6-b7a479e5acae
 
-# GPS Navigation Autonomous Robot 🤖
+# GPS Navigation Autonomous Robot 
 
 An autonomous mobile robot developed as a Bachelor of Engineering Technology in Electrical Engineering final-year project.
 
@@ -15,7 +15,7 @@ The robot uses an **ESP32** as the main controller and integrates GPS navigation
 
 ---
 
-## 1. Project Overview
+## Project Overview
 
 The aim of this project was to develop a robot that can navigate using GPS coordinates, determine its direction using a compass, detect obstacles and control its motors automatically.
 
