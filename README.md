@@ -149,6 +149,14 @@ Vout ≈ 3.4 V
 
 The calculated divider current was approximately:
 
+I = 1.7 V / 147 Ω
+I ≈ 11.6 mA
+
+This design was selected to provide a voltage close to the required 3.3 V logic level while keeping the divider current below the specified 12 mA limit.
+
+Why the Voltage Divider Was Required
+
+The voltage divider provides an interface between the 5 V HC-SR04 Echo signal and the 3.3 V ESP32 GPIO input
 
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
