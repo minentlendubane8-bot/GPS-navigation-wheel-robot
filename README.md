@@ -318,6 +318,18 @@ RIGHT → LEFT → CENTER
 
 The measured distances are used to determine whether a clearer direction is available. After the obstacle has been handled, the robot can resume its navigation process. 
 
+**MQTT Communication**
+
+MQTT was implemented to provide wireless communication between the mobile application and the ESP32.
+
+The ESP32 connects to the Wi-Fi network and communicates with the MQTT client. Commands from the mobile application are received by the ESP32 and used to control the robot.
+
+The communication was first tested using Start and Stop commands. The test verified that the MQTT connection was working correctly before integrating the communication into the main robot system.
+
+<img width="720" height="682" alt="57751" src="https://github.com/user-attachments/assets/e0f81e21-4d3f-4b08-a148-f3038994b6be" />
+
+
+
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
 
@@ -356,7 +368,7 @@ MATLAB & Simulink – system modelling and simulation,
 Results
 
 Arduino IDE – C/C++ embedded programming.
-<img width="720" height="682" alt="57751" src="https://github.com/user-attachments/assets/e0f81e21-4d3f-4b08-a148-f3038994b6be" />
+
 
 ## Skills & Competencies Demonstrated
 
