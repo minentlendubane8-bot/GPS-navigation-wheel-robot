@@ -244,11 +244,11 @@ e(t) = heading error
 
 K_p = proportional gain
 
-\(K_i\) = integral gain
+K_i= integral gain
 
-\(K_d\) = derivative gain
+K_d = derivative gain
 
-\(u(t)\) = steering/control output
+u(t)= steering/control output
 
 
 ## Positioning & Heading
