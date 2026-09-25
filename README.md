@@ -338,6 +338,22 @@ Soldering was used to provide secure electrical connections and reduce loose con
 
 The compass wiring was also improved using shielded cable because electromagnetic interference from the motors and nearby electronics affected the compass readings. A 1 µF decoupling capacitor was placed close to the compass power pins to improve signal stability.
 
+**Bench Testing**
+
+Before operating the complete robot, individual hardware components were tested on the bench.
+
+**The testing was performed in stages:**
+
+**ESP32** – verified programming and GPIO operation.
+
+**GPS** – verified latitude and longitude data.
+
+**QMC5883L**– verified I²C communication and heading measurements.
+HC-SR04 – verified distance measurements.
+**Servo motor**– verified left/right scanning.
+
+**L298N**– verified forward, reverse and differential motor control.
+
 ## Positioning & Heading
 GPS module (Neo-6M) provides absolute location.
 
