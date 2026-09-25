@@ -67,16 +67,17 @@ The 12 V supply is used for the motor-drive section through the L298N motor driv
 
 The ESP32 operates at **3.3 V**, while other components in the system require different supply voltages.
 
-| Component | Supply Voltage _____________________________
+| Component | Supply Voltage |
+|---|---:|
 | ESP32 | 3.3 V |
 | GPS NEO-6M | 3.3 V |
 | QMC5883L Compass | 3.3 V |
 | L298N Motor Supply | 12 V |
-| L298N Logic Supply | 3.3 V |
+| L298N Logic Supply | 5 V |
 | Servo Motor | 5 V |
-| HC-SR04 | 5 V |
+| HC-SR04 | 3.3 V |
 
-### Common Ground
+**Common Ground**
 
 A common ground is used between the ESP32 and the connected electronic circuits.
 
@@ -105,6 +106,7 @@ The ESP32 acts as the main interface between the sensors and actuators.
 **GPS Communication**
 
 The GPS NEO-6M communicates with the ESP32 using **UART serial communication**.
+
 GPS TX  ─────────► ESP32 RX
 GPS RX  ◄───────── ESP32 TX
 
