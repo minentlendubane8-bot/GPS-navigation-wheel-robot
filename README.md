@@ -162,19 +162,20 @@ The voltage divider provides an interface between the 5 V HC-SR04 Echo signal an
 This was an important part of the circuit design because the sensor and microcontroller operate at different logic levels.
 
 ## Navigation Theory and Algorithm
+The robot must determine its current position and heading and use these measurements to navigate toward a predefined GPS waypoint.
 
-The navigation algorithm determines how the robot should move from its current GPS position toward a predefined target location.
+The navigation problem therefore has three main quantities:
 
-The system uses two key measurements:
+Current position — obtained from the GPS.
+Current heading — obtained from the QMC5883L compass.
+Target position — predefined latitude and longitude.
 
-- **GPS position** — provides the robot's current latitude and longitude.
-- **Compass heading** — provides the direction in which the robot is currently facing.
+The navigation system then calculates:
 
-These measurements are processed to determine the distance and direction to the target and the required steering correction.
-
-**1.Robot Heading and Waypoint**
-
-Bearing diagram shows two different 
+Distance from the robot to the target.
+Bearing from the robot to the target.
+Difference between the required bearing and the current heading.
+Steering correction required to reduce this error. 
 
 <img width="720" height="408" alt="58896" src="https://github.com/user-attachments/assets/1c5b5191-58b3-4b50-8084-520e35c3aee6" />
                           
